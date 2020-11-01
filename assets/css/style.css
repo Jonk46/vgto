@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 #header .social-links a:hover {
@@ -310,6 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
+  font-weight: 400;
 }
 
 #header.header-top .container {
@@ -327,6 +328,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header.header-top h1 {
     font-size: 26px;
+  }
+  .logo-img-main-menu {
+    width: 35px;
+    height: 35px;
+    padding-bottom: 7px!important;
   }
 }
 
@@ -395,10 +401,9 @@ section .container {
 
 .section-title p {
   margin: 0;
-  margin: -15px 0 15px 0;
-  font-size: 36px;
+  margin: -15px 0 15px -2px;
+  font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
@@ -672,9 +677,10 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 20px 0;
   color: #fff;
-  font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
