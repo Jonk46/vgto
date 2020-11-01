@@ -91,15 +91,6 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  // Skills section
-  $('.skills-content').waypoint(function () {
-    $('.progress .progress-bar').each(function () {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
-
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
