@@ -735,7 +735,7 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 -7px;
+  margin: 5px 0 0 -8px;
   display: flex;
 }
 
@@ -746,6 +746,14 @@ section .container {
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
+}
+
+.contact .info-box .social-links a:nth-child(1) {
+  margin-right: 5px;
+}
+
+.contact .info-box .social-links a:last-child {
+  margin-left: -2px;
 }
 
 .contact .info-box .social-links a:hover {
